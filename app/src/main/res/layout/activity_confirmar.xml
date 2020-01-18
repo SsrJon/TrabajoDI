@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".Confirmar">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiavertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiavertical2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.56" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <TextView
+        android:id="@+id/textViewFinalizado"
+        style="@style/TextViewGestionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmado"
+        app:layout_constraintBottom_toTopOf="@+id/guiahorizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/guiavertical2"
+        app:layout_constraintStart_toStartOf="@+id/guiavertical"
+        app:layout_constraintTop_toTopOf="@+id/guiahorizontal" />
+
+    <Button
+        android:id="@+id/buttonOtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otra_gestion"
+
+        app:layout_constraintBottom_toTopOf="@+id/guiahorizontal4"
+        app:layout_constraintEnd_toStartOf="@+id/guiavertical2"
+        app:layout_constraintStart_toStartOf="@+id/guiavertical"
+        app:layout_constraintTop_toTopOf="@+id/guiahorizontal3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

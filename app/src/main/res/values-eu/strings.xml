@@ -18,4 +18,6 @@
     <string name="potencia">Potentzia</string>
     <string name="apellido">Abizena</string>
     <string name="vacio">Hutsuneak bete</string>
+    <string name="otra_gestion">Berriro kudeatu</string>
+    <string name="confirmado">Kudeaketa amaituta</string>
 </resources>
