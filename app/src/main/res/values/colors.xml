@@ -3,4 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!--Colores para el tema oscuro -->
+    <color name="colorPrimaryD">#673AB7</color>
+    <color name="colorPrimaryDarkD">#3F51B5</color>
+    <color name="colorAccentD">#FF5722</color>
 </resources>
