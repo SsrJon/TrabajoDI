@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TrabajoDI</string>
+    <string name="app_name">Gestión energia</string>
     <string name="hola">Hola</string>
     <string name="atras">Atras</string>
 
@@ -10,7 +10,7 @@
 
 
     <!-- Eleccion 2 -->
-    <string name="gestiona">Selecciona  el servicio que quieres gestionar</string>
+    <string name="gestiona">Selecciona un servicio</string>
     <string name="dar_de_alta">Dar de alta</string>
     <string name="dar_de_baja">Dar de baja</string>
     <string name="cambiar_titular">Cambiar titular</string>

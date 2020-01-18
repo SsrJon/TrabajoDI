@@ -6,14 +6,42 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/gestiona"
+        android:id="@+id/textViewGestiona"
+        style="@style/TextViewGestionarTitulo"
+        android:layout_width="468dp"
+        android:layout_height="45dp"
+        android:text="@string/gestionaSuministro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintVertical_bias="0.079" />
+
+    <TextView
+        android:id="@+id/textViewElectricidad"
+        style="@style/TextViewGestionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/electricidad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <TextView
+        android:id="@+id/textViewGas"
+        style="@style/TextViewGestionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
