@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextViewGestionar" >
+
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="TextViewGestionarTitulo" >
+
+        <item name="android:textSize">20dp</item>
+
+
+    </style>
+
+
 </resources>

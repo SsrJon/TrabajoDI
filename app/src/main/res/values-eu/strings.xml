@@ -2,4 +2,13 @@
 <resources>
     <string name="app_name">TrabajoDI</string>
     <string name="hola">Kaixo</string>
+    <string name="gestiona">Kudetau nahi duzun zerbitzua aukeratu</string>
+    <string name="cambiar_potencia">Potentzia aldatu</string>
+    <string name="cambiar_titular">Titularra aldatu</string>
+    <string name="dar_de_alta">Alta eman</string>
+    <string name="dar_de_baja">Baja eman</string>
+    <string name="gestionaSuministro">"Ongi etorri, kudetau nahi duzun horniketa aukeratu "</string>
+    <string name="electricidad">Elektrizitatea</string>
+    <string name="gas">Gasa</string>
+    <string name="atras">Atzera</string>
 </resources>

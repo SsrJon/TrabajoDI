@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">TrabajoDI</string>
     <string name="hola">Hola</string>
+    <string name="atras">Atras</string>
+
+    <!-- Eleccion 1 -->
+    <string name="gestionaSuministro">Bienvenido,  selecciona  el suministro que quieres gestionar</string>
+    <string name="gas">Gas</string>
+    <string name="electricidad">Electricidad</string>
+
+
+    <!-- Eleccion 2 -->
+    <string name="gestiona">Selecciona  el servicio que quieres gestionar</string>
+    <string name="dar_de_alta">Dar de alta</string>
+    <string name="dar_de_baja">Dar de baja</string>
+    <string name="cambiar_titular">Cambiar titular</string>
+    <string name="cambiar_potencia">Cambiar potencia</string>
+
+
 </resources>
