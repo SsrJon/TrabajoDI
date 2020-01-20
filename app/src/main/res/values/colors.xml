@@ -5,7 +5,11 @@
     <color name="colorAccent">#4562E7</color>
 
     <!--Colores para el tema oscuro -->
-    <color name="colorPrimaryD">#673AB7</color>
-    <color name="colorPrimaryDarkD">#3F51B5</color>
+    <color name="colorPrimaryD">#252533</color>
+    <color name="colorPrimaryDarkD">#05050C</color>
     <color name="colorAccentD">#FF5722</color>
+
+    <color name="blanco">#FCFCFC</color>
+    <color name="fondo">#C1D6C1</color>
+    <color name="fondoD">#272525</color>
 </resources>

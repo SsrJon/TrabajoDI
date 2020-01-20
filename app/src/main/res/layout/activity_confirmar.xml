@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo"
     tools:context=".Confirmar">
 
     <androidx.constraintlayout.widget.Guideline
@@ -64,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/otra_gestion"
-
+        style="@style/boton"
         app:layout_constraintBottom_toTopOf="@+id/guiahorizontal4"
         app:layout_constraintEnd_toStartOf="@+id/guiavertical2"
         app:layout_constraintStart_toStartOf="@+id/guiavertical"

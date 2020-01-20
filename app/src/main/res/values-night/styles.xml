@@ -6,6 +6,14 @@
         <item name="colorPrimary">@color/colorPrimaryD</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkD</item>
         <item name="colorAccent">@color/colorAccentD</item>
+        <item name="android:textColor">@color/fondoD</item>
+
+    </style>
+
+    <style name="colorfondo">
+
+        <item name="android:backgroundTint">@color/fondoD</item>
+
     </style>
 
 
