@@ -100,4 +100,13 @@ public class Eleccion2 extends AppCompatActivity {
         });
 
     }
+
+    public void onBackPressed(){
+
+        Intent pantalla1 = new Intent(Eleccion2.this, Eleccion1.class);
+        startActivity(pantalla1);
+
+
+    }
+
 }

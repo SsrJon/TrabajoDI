@@ -112,4 +112,14 @@ public class Validar extends AppCompatActivity {
 
 
     }
+
+    public void onBackPressed(){
+
+        Intent pantalla1 = new Intent(Validar.this, Eleccion2.class);
+        String valor  = tipoServicio;
+        pantalla1.putExtra("valor", valor );
+        startActivity(pantalla1);
+
+
+    }
 }

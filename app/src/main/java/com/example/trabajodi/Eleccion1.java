@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class Eleccion1 extends AppCompatActivity {
 
     private TextView tvElectricidad, tvGas;
+    private int atras=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,4 +49,17 @@ public class Eleccion1 extends AppCompatActivity {
 
 
     }
+
+    public void onBackPressed(){
+
+        atras = (atras + 1);
+
+
+        if (atras>1) {
+            this.finish();
+        }
+
+    }
+
+
 }

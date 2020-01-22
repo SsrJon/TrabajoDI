@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class Confirmar extends AppCompatActivity {
 
-    private int atras=0;
+
     private Button btnOtra;
 
     @Override
@@ -34,12 +34,10 @@ public class Confirmar extends AppCompatActivity {
 
 
     public void onBackPressed(){
-        atras = (atras + 1);
+
         Intent pantalla1 = new Intent(Confirmar.this, Eleccion1.class);
         startActivity(pantalla1);
 
-        if (atras>1) {
-            this.finish();
-        }
+
     }
 }
