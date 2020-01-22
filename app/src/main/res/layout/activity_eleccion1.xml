@@ -69,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.13" />
+        app:layout_constraintGuide_percent="0.2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guiavertical7"
@@ -90,14 +90,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.62" />
+        app:layout_constraintGuide_percent="0.8" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guiavertical6"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.37" />
+        app:layout_constraintGuide_percent="0.8" />
 
     <TextView
         android:id="@+id/textViewGestiona"
@@ -116,12 +116,17 @@
     <TextView
         android:id="@+id/textViewElectricidad"
         style="@style/TextViewGestionar"
+        android:background="@drawable/layout_border"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/electricidad"
         android:autoSizeMaxTextSize="120sp"
         android:autoSizeMinTextSize="12sp"
         android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+
         app:layout_constraintBottom_toTopOf="@+id/guiahorizontal8"
         app:layout_constraintEnd_toStartOf="@+id/guiavertical4"
         app:layout_constraintStart_toStartOf="@+id/guiavertical3"
@@ -133,9 +138,12 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/gas"
+        android:background="@drawable/layout_border"
         android:autoSizeMaxTextSize="120sp"
         android:autoSizeMinTextSize="12sp"
         android:autoSizeTextType="uniform"
+        android:gravity="center"
+
         app:layout_constraintBottom_toTopOf="@+id/guiahorizontal10"
         app:layout_constraintEnd_toStartOf="@+id/guiavertical6"
         app:layout_constraintStart_toStartOf="@+id/guiavertical3"
