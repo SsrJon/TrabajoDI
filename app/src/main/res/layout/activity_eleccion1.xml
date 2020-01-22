@@ -8,55 +8,148 @@
     tools:context=".Eleccion1">
 
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.04" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.44" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.57" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiahorizontal12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.96" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiavertical3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiavertical7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiavertical5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiavertical4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.62" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guiavertical6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.37" />
 
     <TextView
         android:id="@+id/textViewGestiona"
         style="@style/TextViewGestionarTitulo"
-        android:layout_width="353dp"
-        android:layout_height="64dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text="@string/gestionaSuministro"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054" />
+        android:autoSizeMaxTextSize="120sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guiahorizontal6"
+        app:layout_constraintEnd_toStartOf="@+id/guiavertical5"
+        app:layout_constraintStart_toStartOf="@+id/guiavertical7"
+        app:layout_constraintTop_toTopOf="@+id/guiahorizontal5" />
 
     <TextView
         android:id="@+id/textViewElectricidad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/electricidad"
         style="@style/TextViewGestionar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.279" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/electricidad"
+        android:autoSizeMaxTextSize="120sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guiahorizontal8"
+        app:layout_constraintEnd_toStartOf="@+id/guiavertical4"
+        app:layout_constraintStart_toStartOf="@+id/guiavertical3"
+        app:layout_constraintTop_toTopOf="@+id/guiahorizontal7" />
 
     <TextView
         android:id="@+id/textViewGas"
         style="@style/TextViewGestionar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text="@string/gas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        android:autoSizeMaxTextSize="120sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guiahorizontal10"
+        app:layout_constraintEnd_toStartOf="@+id/guiavertical6"
+        app:layout_constraintStart_toStartOf="@+id/guiavertical3"
+        app:layout_constraintTop_toTopOf="@+id/guiahorizontal9"
+        app:layout_constraintVertical_bias="0.531" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="382dp"
-        android:layout_height="200dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guiahorizontal12"
+        app:layout_constraintEnd_toStartOf="@+id/guiavertical5"
+        app:layout_constraintStart_toStartOf="@+id/guiavertical7"
+        app:layout_constraintTop_toTopOf="@+id/guiahorizontal11"
         app:srcCompat="@drawable/energia" />
 
 

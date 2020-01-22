@@ -8,10 +8,12 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="-266dp"
-        tools:layout_editor_absoluteY="-75dp">
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -22,12 +24,15 @@
             <TextView
                 android:id="@+id/textViewGestiona"
                 style="@style/TextViewGestionarTitulo"
-                android:layout_width="413dp"
-                android:layout_height="36dp"
+                android:layout_width="374dp"
+                android:layout_height="35dp"
+                android:autoSizeMaxTextSize="120sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
                 android:text="@string/gestiona"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintHorizontal_bias="0.389"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.043" />
@@ -37,6 +42,9 @@
                 style="@style/TextViewGestionar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="120sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
                 android:text="@string/dar_de_alta"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -51,6 +59,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
+                android:autoSizeMaxTextSize="120sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
                 android:text="@string/dar_de_baja"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.178"
@@ -63,6 +74,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
+                android:autoSizeMaxTextSize="120sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
                 android:text="@string/cambiar_potencia"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.2"
@@ -75,6 +89,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
+                android:autoSizeMaxTextSize="120sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
                 android:text="@string/cambiar_titular"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.191"
@@ -83,11 +100,11 @@
 
             <Button
                 android:id="@+id/buttonAtras"
+                style="@style/boton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:text="@string/atras"
-                style="@style/boton"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.064"

@@ -6,22 +6,16 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-
-
     </style>
 
 
     <style name="colorfondo">
-
         <item name="android:backgroundTint">@color/fondo</item>
-
     </style>
 
     <style name="TextViewGestionar" >
-
         <item name="android:textSize">25dp</item>
         <item name="android:textStyle">bold</item>
-
     </style>
 
     <style name="TextViewGestionarTitulo" >
@@ -32,6 +26,7 @@
         <item name="android:backgroundTint">@color/colorPrimary</item>
         <item name="android:textColor">@color/blanco</item>
     </style>
+
 
 
 </resources>
