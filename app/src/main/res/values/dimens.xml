@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="cero">0dp</dimen>
+    <dimen name="max">120sp</dimen>
+    <dimen name="max1">100sp</dimen>
+    <dimen name="max2">50sp</dimen>
+    <dimen name="min">12sp</dimen>
+
+
+</resources>
